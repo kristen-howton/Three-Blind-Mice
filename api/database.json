@@ -1,0 +1,67 @@
+{
+    "computers": [
+        {
+            "id": 1,
+            "model": "Macbook Pro",
+            "year": 2015
+        },
+        {
+            "id": 2,
+            "model": "Windows",
+            "year": 2018
+        },
+        {
+            "id": 3,
+            "model": "Macbook",
+            "year": 2019
+        },
+        {
+            "id": 4,
+            "model": "Macbook",
+            "year": 2020
+        },
+        {
+            "id": 5,
+            "model": "Windows",
+            "year": 2019
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "firstName": "Rainu",
+            "lastName": "Ittycheriah",
+            "computerId": 1,
+            "age": 245
+        },
+        {
+            "id": 2,
+            "firstName": "Jon",
+            "lastName": "Howton",
+            "computerId": 2,
+            "age": 32
+        },
+        {
+            "id": 3,
+            "firstName": "Derek",
+            "lastName": "Buckley",
+            "computerId": 3,
+            "age": 33
+            
+        },
+        {
+            "id": 4,
+            "firstName": "Sarah",
+            "lastName": "Landolt",
+            "computerId": 4,
+            "age": 35
+        },
+        {
+            "id": 5,
+            "firstName": "Jon",
+            "lastName": "Durr",
+            "computerId": 6,
+            "age": 25
+        }
+    ]
+}
