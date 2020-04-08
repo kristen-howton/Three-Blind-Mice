@@ -2,7 +2,7 @@ import { useComputers } from "../computuer/computerProvider.js"
 import { useEmployees } from "./employeeProvider.js"
 import { Employee } from "./Employee.js"
 
-
+//getting a reference to a DOM element with a class of employeeContainer and storing it in a variable
 const contentTarget = document.querySelector(".employeeContainer")
 
 const render = employeesToRender => {
