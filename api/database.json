@@ -74,7 +74,7 @@
             "age": 25
         }
     ],
-    "departments": [
+    "department": [
         {
             "id": 1,
             "name": "Software"
@@ -92,8 +92,7 @@
             "name": "Quality Assurance"
         }
     ],
-],
-"locations": [
+"location": [
     {
         "id": 1,
         "location": "Mephis"
