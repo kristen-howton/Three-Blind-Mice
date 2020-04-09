@@ -5,7 +5,7 @@ export const useDepartments = () => {
 }
 
 export const getDepartments = () => {
-    return fetch("http://localhost:3000/departments")
+    return fetch("http://localhost:3000/department")
         .then(response => response.json())
         .then(
             (parsedDepartments) => {
