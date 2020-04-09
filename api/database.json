@@ -32,6 +32,8 @@
             "firstName": "Rainu",
             "lastName": "Ittycheriah",
             "computerId": 1,
+            "departmentId": 1,
+            "locationId": 1,
             "age": 245
         },
         {
@@ -39,6 +41,8 @@
             "firstName": "Jon",
             "lastName": "Howton",
             "computerId": 2,
+            "departmentId": 2,
+            "locationId": 3,
             "age": 32
         },
         {
@@ -46,6 +50,8 @@
             "firstName": "Derek",
             "lastName": "Buckley",
             "computerId": 3,
+            "departmentId": 3,
+            "locationId": 2,
             "age": 33
             
         },
@@ -54,6 +60,8 @@
             "firstName": "Sarah",
             "lastName": "Landolt",
             "computerId": 4,
+            "departmentId": 4,
+            "locationId": 2,
             "age": 35
         },
         {
@@ -61,7 +69,45 @@
             "firstName": "Jon",
             "lastName": "Durr",
             "computerId": 5,
+            "departmentId": 3,
+            "locationId": 1,
             "age": 25
         }
-    ]
+    ],
+    "department": [
+        {
+            "id": 1,
+            "name": "Software"
+        },
+        {
+            "id": 2,
+            "name": "Accounting"
+        },
+        {
+            "id": 3,
+            "name": "Sales"
+        },
+        {
+            "id": 4,
+            "name": "Quality Assurance"
+        }
+    ],
+"location": [
+    {
+        "id": 1,
+        "location": "Mephis"
+    },
+    {
+        "id": 2,
+        "name": "Nashville"
+    },
+    {
+        "id": 3,
+        "name": "Atlanta"
+    },
+    {
+        "id": 4,
+        "name": "Nashville"
+    }
+]
 }
